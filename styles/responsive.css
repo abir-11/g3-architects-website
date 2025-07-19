@@ -1,0 +1,19 @@
+@media screen and (max-width:576px) {
+    .navbar,.nav-links,.teams,.factor-container,.sponsor-img{
+        flex-direction: column;
+
+    }
+  .nav-links{
+    gap: 50px;
+  }
+  .factor-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top:0px;
+  }
+  .sponsor-img{
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  }
+}
